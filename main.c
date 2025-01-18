@@ -214,7 +214,6 @@ void printList(List* myList)
       printf("[%d]\t%s\t%s\t%0.2f\t%d\n", i, myList->data[i]->name, myList->data[i]->lastname, myList->data[i]->height, myList->data[i]->age);
     }
   }
-  printf("print success\n");
 }
 
 // Given a pointer to a List struct, this function prints out the size and capacity of that List (NO NEED TO CHANGE).
